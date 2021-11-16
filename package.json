@@ -1,0 +1,21 @@
+{
+  "name": "viral-loops-api",
+  "version": "1.0.0",
+  "description": "web hook to persist new participant to viral loops",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/server.js",
+    "start:dev": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "contato.app/miguel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
